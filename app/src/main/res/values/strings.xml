@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">MathOGotchi</string>
+
+    <!-- tutorial -->
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <!-- main -->
+    <string name="choose_level">Choose level</string>
+    <string name="hard">hard</string>
+    <string name="easy">easy</string>
+    <string name="play_button">play button</string>
+
+    <!-- toolbar -->
+    <string name="moves_toolbar">Moves:</string>
+
+
+    <!-- victory dialog -->
+    <string name="best_result_in_victory_dialog">Your best result:</string>
+    <string name="moves_in_victory_dialog">moves</string>
+    <string name="home_in_victory_dialog">Home</string>
+    <string name="play_again_in_victory_dialog">Play again</string>
+    <string name="next_level_in_victory_dialog">Next level</string>
+    <string name="best_result_15_steps_in_victory_dialog">Best result 15 steps</string>
+    <string name="you_did_it_in_victory_dialog">You did it in</string>
+    <string name="you_won_victory_dialog">YOU WON!</string>
+    <string name="best_possible_result_in_victory_dialog">Best possible result</string>
+
+
+    <string name="logo_on_main">logo on main</string>
+    <string name="cloud_with_sign">cloud with sign</string>
+    <string name="stage">stage</string>
+    <string name="tutorial_text_2">No larger row may be placed on a smaller row</string>
+    <string name="tutorial_text_3">Try to do it in minimum moves</string>
+    <string name="tutorial_text_1">To get the treat move one row at a time</string>
+    <string name="target_stand_one">target stand one</string>
+    <string name="starting_stand">starting stand</string>
+    <string name="target_stand_two">target stand two</string>
+    <string name="target_treat_one">target treat one</string>
+    <string name="target_treat_two">target treat two</string>
+    <string name="add_one_disk">add one disk</string>
+    <string name="subtract_one_disk">subtract one disk</string>
+    <string name="circle_arrow">circle_arrow</string>
+    <string name="number_of_moves" translatable="false">20</string>
+    <string name="tutorial_image_step_one">tutorial image step one</string>
+    <string name="tutorial_slide_two">tutorial slide two</string>
+    <string name="tutorial_slide_three">tutorial slide three</string>
+    <string name="best_possible_result_6_moves">best possible result 6 moves</string>
+</resources>

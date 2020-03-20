@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tech.kateiana.mathogotchi"
+    android:installLocation="preferExternal">
+
+    <supports-screens
+        android:normalScreens="true"
+        android:smallScreens="false"
+        android:xlargeScreens="false" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/logo_cir"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MathogotchiMainActivity"></activity>
+        <activity android:name=".LauncherActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TutorialActivity"
+            android:screenOrientation="landscape">
+            <intent-filter android:label="How to play hanoi tower">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.kateiana.tech"
+                    android:pathPrefix="/kittens_tower"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Kittens Tower"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GameActivity"
+            android:label="Kittens Tower"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ToolbarActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/ToolbarTheme" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
